@@ -1,13 +1,13 @@
 def concatenar_dados():
-    dados = []
+    data = []
 
     while True:
         entrada = input("Digite um dado (ou 'fim' para encerrar): ")
         if entrada.lower() == 'fim':
             break
-        dados.append(entrada)
+        data.append(entrada)
 
-    resultado = ''.join(map(str, dados))
+    resultado = ''.join(map(str, data))
 
     return resultado
 
